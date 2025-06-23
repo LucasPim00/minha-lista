@@ -34,7 +34,7 @@ export default function ToDoList() {
 
       <ul>
         {tasks.map((task, index) => (
-          <li key={index} className="flex justify-between items-center mb-2 bg-gray-100 p-2 rounded">
+          <li key={index} className="flex justify-between items-center mb-2 bg-gray-500 p-2 rounded">
             <span>{task}</span>
             <button onClick={() => removeTask(index)} className="text-red-500">Remover</button>
           </li>
