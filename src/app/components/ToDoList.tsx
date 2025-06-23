@@ -17,12 +17,12 @@ export default function ToDoList() {
 
   return (
     <div className="max-w-md mx-auto p-4 bg-white shadow-lg rounded-xl mt-10">
-      <h1 className="text-2xl font-bold mb-4 text-center">Minha Lista de Tarefas</h1>
+      <h1 className="text-2xl font-bold mb-4 text-center text-black">Minha Lista de Tarefas</h1>
 
       <div className="flex gap-2 mb-4">
         <input
           type="text"
-          className="border p-2 flex-1 rounded"
+          className="border p-2 flex-1 rounded text-black"
           placeholder="Digite uma tarefa"
           value={newTask}
           onChange={(e) => setNewTask(e.target.value)}
